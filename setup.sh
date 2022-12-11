@@ -1,9 +1,13 @@
 #!/bin/sh
-# zshrc
-sh zsh/setup.sh
-
-# git
-sh git/setup.sh
+DOTFILES_DIR=$HOME/dotfiles
+## asdf
+sh "$DOTFILES_DIR"/asdf/setup.sh
 
 ## brew
-sh brew/setup.sh
+sh "$DOTFILES_DIR"/brew/setup.sh
+
+# git
+sh "$DOTFILES_DIR"/git/setup.sh
+
+# zshrc
+sh "$DOTFILES_DIR"/zsh/setup.sh
