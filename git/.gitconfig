@@ -1,0 +1,12 @@
+[user]
+	name = shwatanap
+	email = watanabeshou1520@gmail.com
+
+[fetch]
+	prune = true
+
+[color]
+	ui = auto
+
+[init]
+	defaultBranch = main
