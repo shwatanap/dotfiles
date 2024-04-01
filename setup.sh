@@ -1,10 +1,10 @@
 #!/bin/sh
 DOTFILES_DIR=$HOME/dotfiles
-## asdf
-sh "$DOTFILES_DIR"/asdf/setup.sh
-
 ## brew
 sh "$DOTFILES_DIR"/brew/setup.sh
+
+## asdf
+sh "$DOTFILES_DIR"/asdf/setup.sh
 
 # git
 sh "$DOTFILES_DIR"/git/setup.sh
